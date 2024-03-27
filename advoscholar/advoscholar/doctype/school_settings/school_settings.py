@@ -6,6 +6,4 @@ from frappe.model.document import Document
 
 
 class SchoolSettings(Document):
-	# def on_update(self):
-	# 	frappe.msgprint("School Settings Updated")
-	# 	pass
+	pass

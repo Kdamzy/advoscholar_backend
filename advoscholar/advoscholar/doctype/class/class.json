@@ -12,7 +12,9 @@
   "teacher",
   "section_break_hjtf",
   "multiple_teachers",
-  "subjects"
+  "subjects",
+  "section_break_weck",
+  "class_fees"
  ],
  "fields": [
   {
@@ -57,11 +59,22 @@
    "fieldname": "multiple_teachers",
    "fieldtype": "Check",
    "label": "Multiple Teachers"
+  },
+  {
+   "fieldname": "section_break_weck",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "class_fees",
+   "fieldtype": "Table",
+   "label": "Class Fees",
+   "options": "Class Fees",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-17 20:03:04.140433",
+ "modified": "2024-03-27 15:56:56.626535",
  "modified_by": "Administrator",
  "module": "Advoscholar",
  "name": "Class",
